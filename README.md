@@ -28,4 +28,22 @@ int main() {
   return 0;
 }
 ```
+*2. Write a C program to check whether a given number is positive or negative*
+```
+#include <stdio.h>
+
+int main() {
+  int num= 0;
+  printf("Please type one random number");
+  scanf("%d",&num);
+  if (num <= 0)  {
+    printf("%d is a negative number", num);
+  }
+  else{
+    printf("%d is a positive number", num);
+  }
+  
+  return 0;
+}
+```
 
