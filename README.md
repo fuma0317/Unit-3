@@ -47,4 +47,4 @@ int main() {
   return 0;
 }
 ```
-
+*3. Write a C program to read the age of a candidate and determine wether it is eligible for casting his/her own vote in Japan*
