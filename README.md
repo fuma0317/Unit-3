@@ -48,3 +48,21 @@ int main() {
 }
 ```
 *3. Write a C program to read the age of a candidate and determine wether it is eligible for casting his/her own vote in Japan*
+```
+#include <stdio.h>
+
+int main() {
+  int num= 0;
+  printf("Please type your age");
+  scanf("%d",&num);
+  if (num >= 18)  {
+    printf("Congratulations! You are eligible for casting your vote");
+  }
+  else{
+    printf("Sorry.. You are not eligible for casting your vote");
+  }
+  
+  return 0;
+}
+```
+
