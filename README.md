@@ -65,6 +65,32 @@ int main() {
   return 0;
 }
 ```
+*5. Write a C program to accept a coordinate point in a XY coordinate system and determine in which quadrant the coordinate point lies
+```#include <stdio.h>
+
+//
+
+int main() {
+  int x= 0;
+  int y= 0;
+  printf("Please type X coordinate and Y coordinate");
+  scanf("%d %d",&x,&y);
+
+  if (x >=1 & y >=1) {
+    printf("The coordinate point (%d,%d) lies in the First quadrant.", x,y);
+  }
+  else if(x <0 & y >=1){
+    printf("The coordinate point (%d,%d) lies in the Second quadrant.", x,y);
+  }
+  else if(x <0 & y <0){
+    printf("The coordinate point (%d,%d) lies in  the Third quadrant.", x,y);
+  }
+  else{
+    printf("The coordinate point (%d,%d) lies in  the Forth quadrant.", x,y);
+  }
+  return 0;
+}
+```
 *6. Write a C program to find the eligibility of admission for a professional course based on the following criteria*
 
 *Marks in Math >=65
