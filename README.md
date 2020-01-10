@@ -65,6 +65,36 @@ int main() {
   return 0;
 }
 ```
+*4. Write a C program to find the largest of three numbers.*
+```
+#include <stdio.h>
+
+//
+
+int main() {
+  int num1= 0; 
+  int num2= 0;
+  int num3= 0;
+  
+  printf("please type random three numbers");
+  scanf("%d %d %d",&num1,&num2,&num3);
+  printf("1st Number = %d,",num1);
+  printf(" 2nd Number = %d,",num2);
+  printf(" 3rd Number = %d,",num3);
+
+  if (num1 > num2 & num1 > num3) { 
+    printf("The 1st Number is the greatest amoung three");
+  }
+  else if(num2 > num1 & num2 > num3){
+    printf("The 2nd Number is the greatest amoung three");
+  }
+  else if(num3 > num1 & num3 > num2){
+    printf("The 3rd Number is the greatest amoung three");
+    
+  }
+  return 0;
+}
+```
 *5. Write a C program to accept a coordinate point in a XY coordinate system and determine in which quadrant the coordinate point lies*
 ```
 #include <stdio.h>
