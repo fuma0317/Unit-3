@@ -66,7 +66,8 @@ int main() {
 }
 ```
 *5. Write a C program to accept a coordinate point in a XY coordinate system and determine in which quadrant the coordinate point lies*
-```#include <stdio.h>
+```
+#include <stdio.h>
 
 //
 
