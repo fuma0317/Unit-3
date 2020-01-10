@@ -126,3 +126,43 @@ int main() {
   return 0;
 }
 ```
+*7. Write a C program to read temperature in centigrade and display a suitable message according to temperature state below:
+
+*Temp <0 then Freezing weather
+Temp 0-10 then Very Cold weather
+Temp 10-20 then Cold weather
+Temp 20-30 then Normal in Temp
+Temp 30-40 then It's Hot
+Temp >=40 then It's Very Hot*
+```
+#include <stdio.h>
+
+//
+
+int main() {
+  int temp= 0;
+  printf("Please type current temperature");
+  scanf("%d",&temp);
+
+  if (temp < 0) {
+    printf("Freezing weather");
+  }
+  else if(0 <= temp & temp < 10){
+    printf("Very Cold weather");
+  }
+  else if(10 <= temp & temp < 20){
+    printf("Cold weather");
+  }
+  else if(20 <= temp & temp < 30){
+    printf("Normal in Temp");
+  }
+  else if(30 <= temp & temp < 40){
+    printf("It's Hot");
+  }
+  else if(40 <= temp){
+    printf("It's Very Hot");
+  }
+  return 0;
+}
+```
+
