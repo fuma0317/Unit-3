@@ -126,7 +126,7 @@ int main() {
   return 0;
 }
 ```
-*7. Write a C program to read temperature in centigrade and display a suitable message according to temperature state below:
+*7. Write a C program to read temperature in centigrade and display a suitable message according to temperature state below:*
 
 *Temp <0 then Freezing weather
 Temp 0-10 then Very Cold weather
