@@ -212,3 +212,62 @@ int main() {
   return 0;
 }
 ```
+*10 Write a program in C to calculate and print the Electricity bill of a given customer. The customer id, name and unit consumed by the user should be taken from the keyboard and display the total amount to pay to the customer. The charge are as follows:*
+```
+Unit              Charge/Unit
+upto 199          @1.20   
+200-399           @1.50
+400-599           @1.80
+600-              @2.00
+```
+If bill exceeds ¥400 then a surcharge of 15% will be charged and the minimum bill should be of ¥100/-
+```
+#include <stdio.h>
+
+//
+
+int main() {
+  int uni= 0;
+  int amc= 0;
+  int sua= 0;
+  int nap= 0;
+  char cid[1000];
+  char name[1000];
+  printf("please type CUSTOMER id, NAME and UNIT");
+  scanf("%s %s",&cid,&name);
+  scanf("%d",&uni);
+
+  printf("Customer IDNO: %s",cid);
+
+  printf("Customer Name: %s",name);
+  
+  printf("Unit Consumed: %d",uni);
+
+  if (uni < 199) {
+    amc = uni * 1.20;
+    printf("Amount charges@Rs.1.20 per unit: %d", amc);
+  }
+  else if(200 <= uni & uni < 400){
+    amc = uni * 1.50;
+    printf("Amount charges@Rs.1.50 per unit: %d",amc);
+  }
+  else if(400 <= uni & uni < 600){
+    amc = uni * 1.80;
+    printf("Amount charges@Rs.1.80 per unit: %d",amc);
+    sua = amc * 0.15;
+    nap = amc + sua;
+    printf("Surcharge Amount: %d", sua);
+    printf("Net Amount Paid By the Customer: %d", nap);
+  }
+  else if(600 <= uni){
+    amc = uni * 2.00;
+    printf("Amount charges@Rs.2.00 per unit: %d",amc);
+    sua = amc * 0.15;
+    nap = amc + sua;
+    printf("Surcharge Amount: %d", sua);
+    printf("Net Amount paid By the Customer: %d", nap);
+  }
+  return 0;
+}
+```
+
