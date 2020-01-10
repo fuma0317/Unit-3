@@ -65,4 +65,37 @@ int main() {
   return 0;
 }
 ```
+*6. Write a C program to find the eligibility of admission for a professional course based on the following criteria
 
+Marks in Math >=65
+Marks in Phy >=55
+Marks in Chem >=50
+Total in all three subject >=180
+or
+Total in Math and Phy >=140
+
+```
+#include <stdio.h>
+
+//
+
+int main() {
+  int math= 0;
+  int phy= 0;
+  int che= 0;
+  printf("Please type your makes in MATH, PHYSICS, CHEMISTRY");
+  scanf("%d %d %d",&math,&phy,&che);
+
+  if (math >=65 & phy >=55 & che >=50 & math+phy+che >=180 ) {
+    printf("The candidate is eligible for admission");
+  }
+  else if(math >=65 & phy >=55 & che >=50 & math+phy >= 140){
+    printf("The candidate is eligible for admission");
+  }
+  
+  else{
+    printf("The candidate is not eligible");
+  }
+  return 0;
+}
+```
