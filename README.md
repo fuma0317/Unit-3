@@ -72,7 +72,7 @@ Marks in Phy >=55
 Marks in Chem >=50
 Total in all three subject >=180
 or
-Total in Math and Phy >=140
+Total in Math and Phy >=140*
 
 ```
 #include <stdio.h>
