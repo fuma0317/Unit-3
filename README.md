@@ -165,4 +165,28 @@ int main() {
   return 0;
 }
 ```
+*8. Write a C program to check whether a triangle is Equilateral, Isosceles or Scalene.*
+```
+#include <stdio.h>
 
+//
+
+int main() {
+  int ang1= 0;
+  int ang2= 0;
+  int ang3= 0;
+  printf("please type three angles of triangle");
+  scanf("%d %d %d",&ang1,&ang2,&ang3);
+
+  if (ang1 == ang2 & ang2 == ang3) {
+    printf("This is an equilateral triangle");
+  }
+  else if(ang1 == ang2 | ang1 == ang3 | ang2 == ang3){
+    printf("This is an isosceles triangle");
+  }
+  else {
+    printf("This is a scalene triangle");
+  }
+  return 0;
+}
+```
