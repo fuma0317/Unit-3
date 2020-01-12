@@ -302,6 +302,7 @@ int main() {
 }
 ```
 **HOMEWORK 2**
+
 *1. Write a C program to read 10 numbers from keyboard and find their sum and average*
 ```
 ```
