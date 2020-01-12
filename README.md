@@ -315,6 +315,34 @@ int main() {
 ```
 **HOMEWORK 2**
 
-*1. Write a C program to read 10 numbers from keyboard and find their sum and average*
+*1. Write a C program to read 10 numbers from keyboard and find their sum and average* **DOESNT WORK**
 ```
+//this program finds their sum and average
+#include <stdio.h>
+
+int main() {
+  int num1= 0;
+  int num2= 0;
+  int num3= 0;
+  int num4= 0;
+  int num5= 0;
+  int num6= 0;
+  int num7= 0;
+  int num8= 0;
+  int num9= 0;
+  int num10= 0;
+  int sum= 0;
+  float ave= 0;
+  //get random 10 numbers from user
+  printf("Please type 10 random numbers");
+  scanf("%d %d %d %d %d %d %d %d %d %d",&num1,&num2,&num3,&num4,&num5,&num6,&num7,&num8,&num9,&num10);
+  //caluculate the sum and average of the 10 numbers
+  sum= num1+num2+num3+num4+num5+num6+num7+num8+num9+num10;
+
+  ave= sum / 10;
+printf("The Sum of 10 numbers is: %d",sum);
+printf(" ");
+printf("The Average is: %f", ave);
+return 0;
+}
 ```
