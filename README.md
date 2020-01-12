@@ -392,3 +392,26 @@ int main() {
 return 0;
 }
 ```
+*8. Write a C program to display the number in reverse order*
+```
+//this program displays the number in reverse order
+#include <stdio.h>
+
+int main() {
+  int num;
+  int rev =0;
+
+  //get random one integer from user
+  printf("Please type one integer");
+  scanf("%d",&num);
+
+  //while loop reversing each one of number
+  while (num > 0){
+    rev = rev * 10 + num % 10;
+    num /= 10;
+  }
+  printf("%d",rev);
+  
+
+return 0;
+}
