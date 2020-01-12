@@ -346,3 +346,26 @@ printf("The Average is: %f", ave);
 return 0;
 }
 ```
+*2. Write a C program to display the cube of the number upto given an integer
+```
+//display the cube of the number upto given an integer
+#include <stdio.h>
+//the function allows us to use "cube caluculation"
+#include <math.h>
+
+int main() {
+  int num= 0;
+  
+
+  //get random one number from user
+  printf("Please type one random number");
+  scanf("%d",&num);
+  //for loop for n times to repeat calculating
+  for(int i=0; i < num; i++ ){
+    printf("Number is: %d and cube of the %d is: %f",i+1,i+1, pow(i + 1, 3.0));
+  }
+  
+
+return 0;
+}
+```
