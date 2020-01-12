@@ -369,3 +369,26 @@ int main() {
 return 0;
 }
 ```
+*3. Write a C program to calculate the factorial of a given number.*
+```
+//this program calculates the factorial of a given number
+#include <stdio.h>
+
+int main() {
+  int i= 0;
+
+  int num;
+  int fact =1;
+  //get random one integer from user
+  printf("Please type one integer");
+  scanf("%d",&num);
+  //for loop for n times to repeat calculating
+  for(i=1; i <=num; i++ ){
+    fact = fact*i;
+  };
+  printf("The factorial of %d is:%d",num,fact);
+  
+
+return 0;
+}
+```
