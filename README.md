@@ -14,12 +14,15 @@
 
 *1. Write a C program to check whether a given number is even or odd*
 ```
+//this program checks whether a given number is even or odd
 #include <stdio.h>
 
 int main() {
   int num= 0;
+  //get random number from user
   printf("Please type one random integer");
   scanf("%d",&num);
+  //check reminder of number is 0 if it is divided by 2 
   if ((num % 2) == 0) {
     printf("%d is an even integer", num);
   }
@@ -32,12 +35,15 @@ int main() {
 ```
 *2. Write a C program to check whether a given number is positive or negative*
 ```
+//this program checks whether a given number is positive or negative
 #include <stdio.h>
 
 int main() {
   int num= 0;
+  //get random number from user
   printf("Please type one random number");
   scanf("%d",&num);
+  //check if the number is bigger or smaller than 0
   if (num <= 0)  {
     printf("%d is a negative number", num);
   }
@@ -50,12 +56,15 @@ int main() {
 ```
 *3. Write a C program to read the age of a candidate and determine wether it is eligible for casting his/her own vote in Japan*
 ```
+//this program check wether candidates is eligible for casting their own vote with their ages 
 #include <stdio.h>
 
 int main() {
   int num= 0;
+  //get number from user
   printf("Please type your age");
   scanf("%d",&num);
+  //check if the age is bigger than 18
   if (num >= 18)  {
     printf("Congratulations! You are eligible for casting your vote");
   }
@@ -68,6 +77,7 @@ int main() {
 ```
 *4. Write a C program to find the largest of three numbers.*
 ```
+//this program finds the largest of three numbers
 #include <stdio.h>
 
 //
@@ -77,12 +87,14 @@ int main() {
   int num2= 0;
   int num3= 0;
   
+  //get three random numbers from user
   printf("please type random three numbers");
   scanf("%d %d %d",&num1,&num2,&num3);
   printf("1st Number = %d,",num1);
   printf(" 2nd Number = %d,",num2);
   printf(" 3rd Number = %d,",num3);
 
+  //find which number is the biggest and print a suitable message
   if (num1 > num2 & num1 > num3) { 
     printf("The 1st Number is the greatest amoung three");
   }
@@ -98,9 +110,9 @@ int main() {
 ```
 *5. Write a C program to accept a coordinate point in a XY coordinate system and determine in which quadrant the coordinate point lies*
 ```
+//this program 
 #include <stdio.h>
 
-//
 
 int main() {
   int x= 0;
