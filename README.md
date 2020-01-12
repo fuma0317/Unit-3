@@ -346,7 +346,7 @@ printf("The Average is: %f", ave);
 return 0;
 }
 ```
-*2. Write a C program to display the cube of the number upto given an integer
+*2. Write a C program to display the cube of the number upto given an integer*
 ```
 //display the cube of the number upto given an integer
 #include <stdio.h>
