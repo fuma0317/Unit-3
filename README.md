@@ -10,7 +10,8 @@
  encrypted version: HTTPs
  
 ## PROGRAMS ##
-#HOMEWOEK 1#
+**HOMEWOEK 1**
+
 *1. Write a C program to check whether a given number is even or odd*
 ```
 #include <stdio.h>
@@ -300,4 +301,7 @@ int main() {
   return 0;
 }
 ```
-
+**HOMEWORK 2**
+*1. Write a C program to read 10 numbers from keyboard and find their sum and average*
+```
+```
