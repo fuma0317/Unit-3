@@ -315,7 +315,7 @@ int main() {
 ```
 **HOMEWORK 2**
 
-*1. Write a C program to read 10 numbers from keyboard and find their sum and average* **DOESNT WORK**
+*1. Write a C program to read 10 numbers from keyboard and find their sum and average* **DOESNT WORK/ shows 9.00 instead of 9.600
 ```
 //this program finds their sum and average
 #include <stdio.h>
