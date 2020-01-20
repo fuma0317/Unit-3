@@ -415,3 +415,26 @@ int main() {
 
 return 0;
 }
+```
+*Show an array of 10 numbers that I typed*
+```
+#include <stdio.h>
+
+//
+
+int main() {
+  //1. define array
+  int int_arr1[10]= {3,2,4,6,5,7,8,9,0,1};
+  //2. create loop
+  for(int i=0; i < 10; i++) {
+    //3. print elements
+      printf("Element %d: %d\n",i,int_arr1[i]);
+    
+  }
+  
+
+  
+
+  return 0;
+}
+```
