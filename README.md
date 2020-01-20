@@ -438,3 +438,18 @@ int main() {
   return 0;
 }
 ```
+*Get year, first name and last name and print year.first_name.last_name@uwcisak.jp*
+```
+#include <stdio.h> 
+int year=0;
+char fir[15];
+char las[15];
+int main () {
+
+  printf("Please type your year, first name and last name!\n");
+  scanf("%i %s %s", &year,&fir,&las);
+    
+  printf("%i.%s.%s@uwcisak.jp",year,fir,las);  
+   return 0;
+   }
+   ```
