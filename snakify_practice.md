@@ -8,3 +8,15 @@ b = int(input())
 c = int(input())
 print(a + b + c)
 ```
+### Square ###
+```
+a = int(input())
+print(a ** 2)
+```
+### Apple Sharing ###
+```
+N = int(input())
+K = int(input())
+print(K // N)
+print(K % N)
+```
