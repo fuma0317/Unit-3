@@ -1,6 +1,6 @@
 # Unit3 Snakify practices
 ## 1. Input, print and numbers ##
-# Sum of three numbers #
+### Sum of three numbers ###
 ```
 # This program reads three numbers and prints their sum:
 a = int(input())
