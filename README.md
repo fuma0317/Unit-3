@@ -28,12 +28,19 @@ Outputs
 12
 1
 ```
-*how to use round
+*how to use round*
 ```
 print(round(1.3))   # gives 1
 print(round(1.7))   # gives 2
 print(round(-1.3))  # gives -1
 print(round(-1.7))  # gives -2
+```
+*if it's "Int"*
+```
+print(int(1.3))   # gives 1
+print(int(1.7))   # gives 1
+print(int(-1.3))  # gives -1
+print(int(-1.7))  # gives -1
 ```
 
 
