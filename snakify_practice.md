@@ -47,4 +47,14 @@ re =(hd + md + sd)
 print(re)
 ```
 ## 2.Integer and float numbers ##
-
+### Last digit of integer ###
+```
+a = int(input())
+print(a % 10)
+```
+or
+```
+a = int(input())
+lastdigit = int(repr(a)[-1])
+print(lastdigit)
+```
