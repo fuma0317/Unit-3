@@ -20,3 +20,31 @@ K = int(input())
 print(K // N)
 print(K % N)
 ```
+### Previous and next ###
+```
+a = int(input())
+a1 = (a + 1)
+a2 = (a - 1)
+str1 = "The next number for the number"
+str2 = "is"
+str3 = "The previous number for the number"
+print(str1, a, str2, a1,'.')
+print(str3, a, str2, a2,'.')
+```
+This code doesn't pass the test. The problem is I don't figure out how to print "180." not "180 ." 
+### Two timestamps ###
+```
+h = int(input())
+m = int(input())
+s = int(input())
+h2 = int(input())
+m2 = int(input())
+s2 = int(input())
+hd = ((h2 - h) * 3600)
+md = ((m2 - m) * 60)
+sd = (s2 - s)
+re =(hd + md + sd)
+print(re)
+```
+## 2.Integer and float numbers ##
+
