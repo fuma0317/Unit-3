@@ -58,3 +58,9 @@ a = int(input())
 lastdigit = int(repr(a)[-1])
 print(lastdigit)
 ```
+### Tens digit ###
+```
+n = int(input())
+s = str(n)
+print(s[-2])
+```
