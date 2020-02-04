@@ -69,5 +69,10 @@ else:
     print("0")
 
 ```
+or
+```
+n = int(input())
+print(n // 10 % 10)
+```
 ### Car route ###
 I didn't figure out how I should make a function 
