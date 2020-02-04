@@ -95,7 +95,7 @@ M = (N % 60)
 print(H, M)
 ```
 
-## Conditions: if, then, else ##
+## 3. Conditions: if, then, else ##
 ### Minimum of two numbers ###
 ```
 A = int(input())
@@ -129,6 +129,18 @@ else:
     print("NO")
 ```
 ### Chocolate bar ###
+英語がわからん
+
+## 4.For loop with range ##
+### Sum of N numbers ###
+```
+N = int(input())
+data = [input() for _ in range(N)]
+s = sum(data)
+print(s)
+```
+Itt doesn't work. I couldn't figure out why
+### The number of zeros ###
 
 
 
