@@ -141,6 +141,9 @@ print(s)
 ```
 Itt doesn't work. I couldn't figure out why
 ### The number of zeros ###
+I searched out how to get N numbers and put them in list but I don't get how to break the list down to calculate
 
+### Lost card ###
+same reason as previous one
 
 
