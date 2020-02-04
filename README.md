@@ -28,19 +28,43 @@ Outputs
 12
 1
 ```
-*how to use round*
+**how to use round**
 ```
 print(round(1.3))   # gives 1
 print(round(1.7))   # gives 2
 print(round(-1.3))  # gives -1
 print(round(-1.7))  # gives -2
 ```
-*if it's "Int"*
+**if it's "Int"**
 ```
 print(int(1.3))   # gives 1
 print(int(1.7))   # gives 1
 print(int(-1.3))  # gives -1
 print(int(-1.7))  # gives -1
 ```
-
+**How to get absolute value**
+```
+x = int(input())
+print(abs(x))
+```
+**Nested conditions**
+```
+x = int(input())
+y = int(input())
+if x > 0:
+    if y > 0:
+        # x is greater than 0, y is greater than 0
+        print("Quadrant I")
+    else:    
+        # x is greater than 0, y is less or equal than 0
+        print("Quadrant IV")
+else:
+    if y > 0:
+        # x is less or equal than 0, y is greater than 0
+        print("Quadrant II")
+    else:    
+        # x is less or equal than 0, y is less or equal than 0
+        print("Quadrant III")
+  ```
+  
 
