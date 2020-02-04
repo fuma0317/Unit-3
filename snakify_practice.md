@@ -75,4 +75,17 @@ n = int(input())
 print(n // 10 % 10)
 ```
 ### Car route ###
-I didn't figure out how I should make a function 
+```
+N = int(input())
+M = int(input())
+i = 0
+while M < N:
+    (N * i)
+    i += 1 
+else:
+    print(i)
+```
+I tried to make a function that keeps multiplying 1,2,3,4... to N kilometers until I becomes larger than M kilometers.
+
+
+
