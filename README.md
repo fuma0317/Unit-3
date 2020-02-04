@@ -76,4 +76,13 @@ print('end of loop')
 # 7 49
 # end of loop
 ```
-
+**How to set start_value, end_value, step in for loop**
+```
+for i in range(10, 0, -2):
+    print(i)
+# 10
+# 8
+# 6
+# 4
+# 2
+```
