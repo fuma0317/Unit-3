@@ -129,7 +129,7 @@ else:
     print("NO")
 ```
 ### Chocolate bar ###
-英語がわからん
+I didn't get what to do
 
 ## 4.For loop with range ##
 ### Sum of N numbers ###
