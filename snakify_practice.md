@@ -87,5 +87,13 @@ else:
 ```
 I tried to make a function that keeps multiplying 1,2,3,4... to N kilometers until I becomes larger than M kilometers.
 
+### Digital clock ###
+```
+N = int(input())
+H = (N // 60)
+M = (N % 60)
+print(H, M)
+```
+
 
 
