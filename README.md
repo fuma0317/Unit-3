@@ -104,3 +104,8 @@ Output
 1, 2, 3. 4, 5, 6. 
 123 -- 4 * 5 * 6
 ```
+### CTS (conputational thinking)###
+1. DECOMPOSITION
+1. PATTERN RECOGNITION
+1. ABSTRACTION
+1. ALGORITHM DESIGN
