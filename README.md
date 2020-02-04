@@ -86,3 +86,21 @@ for i in range(10, 0, -2):
 # 4
 # 2
 ```
+**How to arrange "print"**
+Input
+```
+print(1, 2, 3)
+print(4, 5, 6)
+print(1, 2, 3, sep=', ', end='. ')
+print(4, 5, 6, sep=', ', end='. ')
+print()
+print(1, 2, 3, sep='', end=' -- ')
+print(4, 5, 6, sep=' * ', end='.')
+```
+Output
+```
+1 2 3
+4 5 6
+1, 2, 3. 4, 5, 6. 
+123 -- 4 * 5 * 6
+```
