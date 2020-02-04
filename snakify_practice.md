@@ -105,6 +105,30 @@ if A > B:
 else:
     print(A)
 ```
+### Sign function ###
+```
+X = int(input())
+if X > 0:
+    print("1")
+elif X < 0:
+    print("-1")
+else:
+    print("0")
+```
+### Rock move ###
+```
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+if A == C:
+    print("YES")
+elif B == D:
+    print("YES")
+else:
+    print("NO")
+```
+### Chocolate bar ###
 
 
 
