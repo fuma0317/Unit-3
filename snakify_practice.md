@@ -62,9 +62,12 @@ print(lastdigit)
 ```
 n = int(input())
 s = str(n)
-print(s[-2])
-```
-It works for integers bigger than 10. I coundn't figur out how to avoid getting error if the integer is one digit.
+le = (len(s))
+if le > 1:
+    print(s[-2])
+else:
+    print("0")
 
+```
 ### Car route ###
 I didn't figure out how I should make a function 
