@@ -95,5 +95,16 @@ M = (N % 60)
 print(H, M)
 ```
 
+## Conditions: if, then, else ##
+### Minimum of two numbers ###
+```
+A = int(input())
+B = int(input())
+if A > B:
+    print(B)
+else:
+    print(A)
+```
+
 
 
