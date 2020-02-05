@@ -106,6 +106,7 @@ Output
 ```
 ### CTS (conputational thinking) ###
 1. DECOMPOSITION
+ Break the complicated problem into small pieces which is able to solve
 1. PATTERN RECOGNITION
 1. ABSTRACTION
 1. ALGORITHM DESIGN
