@@ -12,4 +12,6 @@ map(area, radii)
 
 list(map(area, radii))
 ```
-
+I didn't figure out how to display the result like the on eon tthe video. 
+What is the difference between "return" and "print"?
+How does it replace radii with r?
