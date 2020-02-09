@@ -1,5 +1,5 @@
-#Unit3 Prime numbers#
-##Version1##
+# Unit3 Prime numbers #
+## Version1 ##
 ```
 n = int(input())
 
