@@ -13,3 +13,6 @@ for d in range(2, n):
         return False
 return True
 ```
+I got some errors for this function which is "'return' is outside of function" and I couldn't figure out how to fix that.
+And also I got a question about "return". Does it work same as bool?
+
