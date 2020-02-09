@@ -104,11 +104,27 @@ Output
 1, 2, 3. 4, 5, 6. 
 123 -- 4 * 5 * 6
 ```
+**How to use "append"**
+```
+l = list(range(3))
+print(l)
+# [0, 1, 2]
+
+l.append(100)
+print(l)
+# [0, 1, 2, 100]
+
+l.append('new')
+print(l)
+# [0, 1, 2, 100, 'new']
+```
+
 ### CTS (conputational thinking) ###
 1. DECOMPOSITION
  Break the complicated problem into small pieces which is able to solve
 1. PATTERN RECOGNITION
 1. ABSTRACTION
 1. ALGORITHM DESIGN
+
 
 
