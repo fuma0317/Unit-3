@@ -28,4 +28,4 @@ c_to_f = lambda data: (data[0], (9/5)*data[1] + 32)
 list(map(c_to_f, temps))
 ```
 For example, if you have a list [("Tokyo", 27)], you can get first value as [0] and second value as [1].
-lambda has a same role as function.
+   And also "lambda" has a same role as function.
