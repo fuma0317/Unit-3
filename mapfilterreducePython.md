@@ -27,4 +27,4 @@ c_to_f = lambda data: (data[0], (9/5)*data[1] + 32)
 
 list(map(c_to_f, temps))
 ```
-For example, if you have a list [()]
+For example, if you have a list [("Tokyo", 27)]
