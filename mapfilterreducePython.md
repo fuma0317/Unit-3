@@ -19,3 +19,12 @@ Data: a1, a2..., an
 Function: f
 map(f, data)
 ```
+**Examplar code for map function that converts Celsius to Fahrenheit**
+```
+temps = [("Berlin", 29), ("Cairo", 36), ("Buenos Aires", 19), ("Los Angeles", 26), ("Tokyo", 27), ("New York", 28), ("London", 22), ("Beijing", 32)]
+
+c_to_f = lambda data: (data[0], (9/5)*data[1] + 32)
+
+list(map(c_to_f, temps))
+```
+For example, if you have a list [()]
