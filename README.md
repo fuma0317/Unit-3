@@ -123,8 +123,18 @@ print(l)
 1. DECOMPOSITION
  Break the complicated problem into small pieces which is able to solve
 1. PATTERN RECOGNITION
+ Find out a regulations and patterns
 1. ABSTRACTION
+ Remove the unnecesarry factors and get only important factors
 1. ALGORITHM DESIGN
+ 
+**Journals 
+
+**Journals 2/11**
+Today, we tackeld with "salesman problem" in Python. Through the activity, we learned how to make an array and take out one value from it. And also we started to use "mylib" library to store the important function so that it can be used wehenever I want. I felt that I got used to calculation in Python but I was not very used to calculation regarding to math(import).
+
+**Journals 2/12**
+Today, we started off by calculating how long Bolt and cheetah take to ge to the goal by calculating a accelation. We also reviewed how to calculate root and suquared and stuff regarding to math. And also we learned how to make a system that gets password from user and add random numbers to the end of the password so that it is secure. I felt that hash function was bit confusing for me but it must be useful when we make stronger log-in system.
 
 **Journals 2/14**
 Today, I learned the basics of string data. More specifically, I learned how to open txtfile in python, how to split words on the txt file by spaces, how to check how many particular word in the txt and the other of "format" string. And also we reviewed "map, filter, lambda". I felt that there is so many ways to do one thing but it will be very efficient if I memorize the sysntaxes and be able to find a best way every time.
