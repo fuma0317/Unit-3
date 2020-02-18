@@ -16,4 +16,28 @@ y = [i**2 for i in x]
 ```
 'matplotlib' doesn't work somehow. Other parts are fine I guess
 
+##  Calculate the average of the 1000 random numbers in ① using a loop. ##
+```
+import random
+l = []
+ l.append(for i in range(1, 1001): random.randint(1,100))
+ from statistics import  mean
+ave = mean(l)
+print(ave)
+```
+I'm not sure the 'append' part. But other parts would work well
+
+## Graph linear function ##
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.arenge(0, 6, 0.1)
+
+y = 2*x
+plt.plot(x, y)
+plt.show()
+```
+import parts don't work well
+
 
