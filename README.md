@@ -136,6 +136,41 @@ Violet
 Make a list with [''] and get 1st elemtent of lists (Rainbow[0]).
 If you want to get all of elements in order, use for loop with range of length of the lists.
 
+**Empty list and add elements**
+```
+a = [] # start an empty list
+n = int(input()) # read number of element in the list
+for i in range(n): 
+    new_element = int(input()) # read next element
+    a.append(new_element) # add it to the list
+    # the last two lines could be replaced by one:
+    # a.append(int(input()))
+print(a)
+```
+```
+[1809, 1854, 1860, 1891, 1925]
+```
+Make an empty list with []. And add elements with xxx.append().
+
+**Operations for list**
+```
+a = [1, 2, 3]
+b = [4, 5]
+c = a + b
+d = b * 3
+print([7, 8] + [9])
+print([0, 1] * 3)
+print(c)
+print(d)
+```
+``` 
+[7, 8, 9]
+[0, 1, 0, 1, 0, 1]
+[1, 2, 3, 4, 5]
+[4, 5, 4, 5, 4, 5]
+```
+If you add two lists together, they are combined into one list. If you muliply a list by 3, it repeats the elements of the list three times. Be careful, it doesn't mean that elements times three.
+
 
 ## CTS (conputational thinking) ##
 1. DECOMPOSITION
