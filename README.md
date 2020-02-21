@@ -2,7 +2,7 @@
  
  ## Python things I have to remember ##
  ### Basic calculations ###
- Inputs
+**Mathematical operators(Inputs)**
 ```
 print(5 + 10)
 print(3 * 7, (17 - 2) * 8)
@@ -13,7 +13,7 @@ print(37 // 3)  # double forward slash is an integer division
 print(37 % 3)  # percent sign is a modulus operator
         # it gives the remainder of the left value divided by the right value
 ```
-Outputs
+**Mathematical operators(Outputs)**
 ```
 15
 21 120
