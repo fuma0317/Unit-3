@@ -98,7 +98,7 @@ Output
 1, 2, 3. 4, 5, 6. 
 123 -- 4 * 5 * 6
 ```
-**How to use "append"**
+## How to use "append"##
 ```
 l = list(range(3))
 print(l)
@@ -112,8 +112,32 @@ l.append('new')
 print(l)
 # [0, 1, 2, 100, 'new']
 ```
+## Lists ##
+**print the elements of lists**
+```
+Rainbow = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
+print(Rainbow[0])
+Rainbow[0] = 'red'
+print('Print the rainbow')
+for i in range(len(Rainbow)):
+    print(Rainbow[i])
+```
+```
+Red
+Print the rainbow
+red
+Orange
+Yellow
+Green
+Blue
+Indigo
+Violet
+```
+Make a list with [''] and get 1st elemtent of lists (Rainbow[0]).
+If you want to get all of elements in order, use for loop with range of length of the lists.
 
-### CTS (conputational thinking) ###
+
+## CTS (conputational thinking) ##
 1. DECOMPOSITION
  Break the complicated problem into small pieces which is able to solve
 1. PATTERN RECOGNITION
