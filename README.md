@@ -1,10 +1,4 @@
 # Unit-3
-
- ### Journals ###
-*
-
-*1/22 2020*
- Today, we discussed about the issue about allowed extent of automated system in workplace. The background is that a programmer made his own scripts for his data collecting job so that he can play games and whatever he wants to. Then a manager of his company gets upset at him. I felt that both sides have each problems. For programmer side, he should have told his manager that he made his own scripts that automatize his work so that the manager can assign other works.  For campany side, the point is whether they knew the guy was a programmer because if they knew that fact, they should get him automatize his work and give other tasks instead.
  
  ## Python things I have to remember ##
  ### Basic calculations ###
@@ -128,7 +122,11 @@ print(l)
  Remove the unnecesarry factors and get only important factors
 1. ALGORITHM DESIGN
  
-**Journals 
+## Journals  ##
+
+**Journals 1/22**
+Today, we discussed about the issue about allowed extent of automated system in workplace. The background is that a programmer made his own scripts for his data collecting job so that he can play games and whatever he wants to. Then a manager of his company gets upset at him. I felt that both sides have each problems. For programmer side, he should have told his manager that he made his own scripts that automatize his work so that the manager can assign other works.  For campany side, the point is whether they knew the guy was a programmer because if they knew that fact, they should get him automatize his work and give other tasks instead.
+
 
 **Journals 2/11**
 Today, we tackeld with "salesman problem" in Python. Through the activity, we learned how to make an array and take out one value from it. And also we started to use "mylib" library to store the important function so that it can be used wehenever I want. I felt that I got used to calculation in Python but I was not very used to calculation regarding to math(import).
@@ -139,6 +137,11 @@ Today, we started off by calculating how long Bolt and cheetah take to ge to the
 **Journals 2/14**
 Today, I learned the basics of string data. More specifically, I learned how to open txtfile in python, how to split words on the txt file by spaces, how to check how many particular word in the txt and the other of "format" string. And also we reviewed "map, filter, lambda". I felt that there is so many ways to do one thing but it will be very efficient if I memorize the sysntaxes and be able to find a best way every time.
 
--name of profession
--name of input
--output
+## Profession input, output ##
+**Occupation**: Architect
+
+**Software**: Auto CAD that allows users to create a 2d drawing of interior and also create 3d model of architectures and it's similar to C4d, Maya and Blender. 3ds Max provides the function which renders the 3d model of architectures and make it possible to see and show how does it look like. Lastly, with Homestyler, you can create 3d model of interior by combining the samples such as doors, furnitures and lights.
+
+**Input**: Mouse, Keyboard
+
+**Output**: Moniter, papers
