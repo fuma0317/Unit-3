@@ -98,7 +98,7 @@ Output
 1, 2, 3. 4, 5, 6. 
 123 -- 4 * 5 * 6
 ```
-## How to use "append"##
+## How to use "append" ##
 ```
 l = list(range(3))
 print(l)
@@ -170,6 +170,17 @@ print(d)
 [4, 5, 4, 5, 4, 5]
 ```
 If you add two lists together, they are combined into one list. If you muliply a list by 3, it repeats the elements of the list three times. Be careful, it doesn't mean that elements times three.
+
+**display elements of list in one row**
+```
+a = [1, 2, 3, 4, 5]
+for elem in a:
+    print(elem, end=' ')
+``` 
+```
+1 2 3 4 5 
+```
+
 
 
 ## CTS (conputational thinking) ##
