@@ -190,7 +190,7 @@ for elem in a:
 
 
 
-## CTS (conputational thinking) ##
+####
 **Main 4 steps**
 *1. DECOMPOSITION*
 
@@ -206,6 +206,9 @@ for elem in a:
  
 *1. ALGORITHM DESIGN*
  Clarify steps to solve a issue step by step.
+ 
+ **Reflection**
+ When I heard the term "computational thinking" at first, I thought we use the thought process for programming or computational stuff. However, I've learned that it can be applied to any problems. It helps us to 
  
 
  
