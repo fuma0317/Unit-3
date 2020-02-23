@@ -68,4 +68,11 @@ Put "None" and "name of the list" in the bracket. In this case, the output of "l
 ```
 ['Argentina', 'Brazil', 'Chile', 'Colombia', 'Ecuador', 'Venezuela']
 ```
+**Values below would be concidered as false values and removed by filter function**
+```
+"", 0, 0.0, 0j, [], (), {}, False, None
+```
+
+-------------------
+
 
