@@ -1,4 +1,8 @@
 # Unit-3
+
+Contents
+----------
+1. [Python skills](#pythonthingsIhavetoremember)
  
  ## Python things I have to remember ##
  ### Basic calculations ###
