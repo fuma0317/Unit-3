@@ -13,9 +13,7 @@ for d in range(2, n):
         return False
 return True
 ```
-I got some errors for this function which is "'return' is outside of function" and I couldn't figure out how to fix that.
-And also I got a question about "return". Does it work same as bool?
-
+If the number is eual to 1, return False .
 ## Version2 ##
 ```
 import math
@@ -35,7 +33,7 @@ def is_prime_v2(n):
 for n in range(1, 21):
     print(n, is_prime_v2(n))
 ```
-I got some erros about "max_divisor" but I totally understood how this system work.
+
 
 ## Version3 ##
 ```
@@ -62,7 +60,6 @@ def is_prime_v3(n):
 for n in range(1, 21):
     print(n, is_prime_v3(n))
 ```
-I got some errors and code does work until 2..
-But I understood how the code work.
+
 
 
