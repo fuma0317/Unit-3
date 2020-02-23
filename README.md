@@ -3,7 +3,7 @@
 Contents
 ----------
 1. [Python skills](#pythonthingsIhavetoremember)
-1. [Computational Thinking](#computationalthinking)
+1. [CTS (conputational thinking)](#ctscomputationalthinking)
  
 Python skills
 -----------
