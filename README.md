@@ -3,7 +3,7 @@
 Contents
 ----------
 1. [Python Skills](#pythonskills)
-1. [CTS (conputational thinking)](#ctscomputationalthinking)
+1. [CTS (computational thinking)](#computationalthinking)
 1. [Journals](#journals)
  
 PythonSkills
