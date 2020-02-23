@@ -188,7 +188,7 @@ for elem in a:
 1 2 3 4 5 
 ```
 
-**split and join**
+**split string input**
 ```
 # the input is a string
 # 1 2 3
@@ -200,7 +200,15 @@ Split the string by
 ```
 split()
 ```
-
+**split string input where you want to do**
+```
+a = '192.168.0.1'.split('.')
+print(a)
+```
+This will split '192.168.0.1' where it encountered "."    The output would be 
+```
+'192', '168', '0', '1'
+```
 
 
 ComputationalThinking
