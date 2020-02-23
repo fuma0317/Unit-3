@@ -51,4 +51,19 @@ Additionally, lambda is used as substitute of "def". It works in only one row. S
 ```
 list(filter(lambda x: xxx, xxx))
 ```
+**Remove missing data**
+```
+#remove missing data
+countries = ["", "Argentina", "", "Brazil", "Chile", "", "Colombia", "", "Ecuador", "", "", "Venezuela" ]
+
+l3 = list(filter(None, countries))
+```
+Filter function is also used to remove the missing parts. If you want to remove all empty values in a list, 
+```
+list(filter(None, xxx)
+```
+Put "None" and "name of the list" in the bracket. In this case, the output of "l3" would be
+```
+['Argentina', 'Brazil', 'Chile', 'Colombia', 'Ecuador', 'Venezuela']
+```
 
