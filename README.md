@@ -206,6 +206,7 @@ split()
 ComputationalThinking
 ---------------
 **Main 4 steps**
+
 *1. DECOMPOSITION*
 
  Break the complicated problem into small pieces which is able to solve
