@@ -188,6 +188,19 @@ for elem in a:
 1 2 3 4 5 
 ```
 
+**split and join**
+```
+# the input is a string
+# 1 2 3
+s = input() # s == '1 2 3'
+a = s.split() # a == ['1', '2', '3']
+print(a)
+```
+Split the string by
+```
+split()
+```
+
 
 
 ComputationalThinking
