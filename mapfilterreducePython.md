@@ -74,5 +74,33 @@ Put "None" and "name of the list" in the bracket. In this case, the output of "l
 ```
 
 -------------------
+## Reduce Function ##
+```
+Data: [a1, a2, a3, ..., an]
+Function: f(x,y)
 
+reduce(f, data):
+Step 1:     val1 = f(a1,a2)
+Step 2:     val2 = f(val1, a3)
+Step 3:     val3 = f(val2, a4)
+:
+:
+Step n-1: valn-1 = f(valn-2, an)
+```
+Reduce function calculates the values in a list in a way above. 
+
+```
+re1 = 0
+data = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+multiplier = lambda x, y: x*y
+re1 = reduce(multiplier, data)
+```
+In this case, first value "2" and second value "3" will be multiplied together and they would counted as "val1". Nextly, "val1" and third value "5" will be mulitiplied together and repeat same calculation.  So the output of "re1" would be
+```
+6469693230
+```
+reduce function is used like this
+```
+reduce(name of function, name of list)
+```
 
