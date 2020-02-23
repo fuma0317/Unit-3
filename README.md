@@ -4,7 +4,7 @@ Contents
 ----------
 1. [Python skills](#pythonthingsIhavetoremember)
  
-Python things I have to remember 
+Python skills
 -----------
  ### Basic calculations ###
 **Mathematical operators(Inputs)**
