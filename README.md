@@ -2,11 +2,11 @@
 
 Contents
 ----------
-1. [Python skills](#pythonskills)
+1. [Python Skills](#pythonskills)
 1. [CTS (conputational thinking)](#ctscomputationalthinking)
 1. [Journals](#journals)
  
-Python skills
+PythonSkills
 -----------
  ### Basic calculations ###
 **Mathematical operators(Inputs)**
