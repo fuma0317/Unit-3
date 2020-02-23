@@ -30,6 +30,8 @@ list(map(c_to_f, temps))
 For example, if you have a list [("Tokyo", 27)], you can get first value as [0] and second value as [1].
    And also "lambda" has a same role as function.
    
+-----------------------------------------------------
+   
 ## Filter function ##
 ```
 import statistics
