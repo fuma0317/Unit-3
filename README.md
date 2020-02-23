@@ -219,6 +219,7 @@ ComputationalThinking
  Remove the unnecesarry factors and get only important factors
  
 *1. ALGORITHM DESIGN*
+
  Clarify steps to solve a issue step by step.
  
  **Reflection**
