@@ -200,6 +200,12 @@ Split the string by
 ```
 split()
 ```
+**one line spliting string input**
+```
+a = [int(s) for s in input().split()]
+print(a)
+```
+
 **split string input where you want to do**
 ```
 a = '192.168.0.1'.split('.')
