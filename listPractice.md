@@ -22,4 +22,28 @@ for e in x:
         print(e)
 ```
 
+## Greater than previous ##
+```
+x = [int(s) for s in input().split()]
+for i in range(1, len(x)):
+    if i > 0:
+        if x[i] > x[i-1]:
+            print(x[i])
+```
+
+## Neighbors of the same sign ##
+```
+x = [int(s) for s in input().split()]
+for e in range(1, len(x)- 1):
+    if x[i] > 0 and x[i + 1] > 0: 
+        print(i)
+    elif x[i] < 0 and x[i + 1] < 0:
+        print(i)
+```
+This code doesn't work
+
+## Greater than Neighbours ##
+```
+```
+
 
