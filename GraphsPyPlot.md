@@ -27,6 +27,27 @@ print(ave)
 ```
 I'm not sure the 'append' part. But other parts would work well
 
+## Sin graph ##
+```
+#this program calculates 14*sin(0.5*x) in the range x = [-10, 10]with steps of 0.1
+import matplotlib.pyplot as pyplot
+import math
+import numpy
+
+x = [i for i in numpy.arange(-10, 10, 0.1)]
+y = [14*math.sin(0.5*i) for i in x]
+
+# Create graph
+pyplot.plot(x, y)
+# Title for axis
+pyplot.xlabel('x')
+pyplot.ylabel('$Y = 14 * sin(o.5 * x)$')
+# Show graph
+pyplot.show()
+print(x)
+print(y)
+```
+
 ## Graph linear function ##
 ```
 import numpy as np
