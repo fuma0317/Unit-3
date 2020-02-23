@@ -184,13 +184,23 @@ for elem in a:
 
 
 ## CTS (conputational thinking) ##
-1. DECOMPOSITION
+**Main 4 steps**
+*1. DECOMPOSITION*
+
  Break the complicated problem into small pieces which is able to solve
-1. PATTERN RECOGNITION
+ 
+*1. PATTERN RECOGNITION*
+
  Find out a regulations and patterns
-1. ABSTRACTION
+ 
+*1. ABSTRACTION*
+
  Remove the unnecesarry factors and get only important factors
-1. ALGORITHM DESIGN
+ 
+*1. ALGORITHM DESIGN*
+ Clarify steps to solve a issue step by step.
+ 
+
  
 ## Journals  ##
 
