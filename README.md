@@ -209,7 +209,7 @@ ComputationalThinking
  Clarify steps to solve a issue step by step.
  
  **Reflection**
- When I heard the term "computational thinking" at first, I thought we use the thought process for programming or computational stuff. However, I've learned that it can be applied to any problems. It helps us to 
+ When I heard the term "computational thinking" at first, I thought we use the thought process for programming or computational stuff. However, I've learned that it can be applied to any problems. It helps us to tackle with a problem logically and efficiently. 
  
 
 Journals  
