@@ -13,7 +13,7 @@ My software application sorts musics(in sportify) in 3 categories which is genre
 
 ## TELOS for my project ##
 **Technical**
-I'm sure that it is possible to make the system to store the database of each musics and the system to log in because we already learned how to create a login system in a class. And I think it would be easier to make database system with LIST.
+I'm sure that it is possible to make the system to store the database of each musics and the system to log in because we already learned how to create a login system in a class. And I think it would be easier to make database system with Object-Oriented Programming(OOP)
 
 **Economic**
 It is totally fine. Python is provided for completely free.  
