@@ -261,6 +261,9 @@ Today, I learned the basics of string data. More specifically, I learned how to 
 **Journals 2/17**
 Today, We started off by learning how to graph in Python. I felt that it was very interesting because Python provides activities beyond just coding. 
 
+**Journals 2/24**
+Today, we learned how to graph sin function with three points and calculate the distance between them. I was so confused of the coding part. I guess I need to have a meeting.
+
 ## Profession ##
 **Occupation**: Architect
 
