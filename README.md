@@ -258,6 +258,9 @@ Today, we started off by calculating how long Bolt and cheetah take to ge to the
 **Journals 2/14**
 Today, I learned the basics of string data. More specifically, I learned how to open txtfile in python, how to split words on the txt file by spaces, how to check how many particular word in the txt and the other of "format" string. And also we reviewed "map, filter, lambda". I felt that there is so many ways to do one thing but it will be very efficient if I memorize the sysntaxes and be able to find a best way every time.
 
+**Journals 2/17**
+Today, We started off by learning how to graph in Python. I felt that it was very interesting because Python provides activities beyond just coding. 
+
 ## Profession ##
 **Occupation**: Architect
 
