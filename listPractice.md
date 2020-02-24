@@ -34,16 +34,20 @@ for i in range(1, len(x)):
 ## Neighbors of the same sign ##
 ```
 x = [int(s) for s in input().split()]
-for e in range(1, len(x)- 1):
-    if x[i] > 0 and x[i + 1] > 0: 
-        print(i)
-    elif x[i] < 0 and x[i + 1] < 0:
-        print(i)
+for i in range(1, (len(a))):
+    if x[i]*x[i-1] > 0:
+        print(x[i-1])
+        print(x[i])
+        break
 ```
-This code doesn't work
-
 ## Greater than Neighbours ##
 ```
+count = 0
+x = [int(s) for s in input().split()]
+for i in range(1, len(x)-1):
+    if x[i-1] < x[i] > x[i+1]:
+        count += 1
+print(count)
 ```
 
 
