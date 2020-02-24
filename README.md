@@ -206,6 +206,7 @@ split()
 a = [int(s) for s in input().split()]
 print(a)
 ```
+The line converts the string input into int input.
 
 **split string input where you want to do**
 ```
