@@ -1,18 +1,16 @@
 # CRITERIA A for the software application #
 
 ## Definition of Problem ##
-I have a lot of music but no interesting way to quickly sort them or find specific songs. It would be  very nice if I could sort my songs into categories or based on information about them. I would like an app that would sort and categorize my music for more pleasant listening
+At the moment, I have a lot of books on my desk, but it is unorganized and my desk is so messy. Besides, I usually forget until where I already read.
 
 ## Proposed Solutuion ##
-I will make a software application that sorts musics in 3 categories which is genre, artist and time produced as database. And also it shows the time added to the playlist for each musics. Additionally, the musics are gathered from spotify.   
+I need a database software application that sorts books into 5 categories which are title, the author, genre, pages and until where I read so that I can pick up a proper book whenever I want. Lastly, I want the system to be only accessed by me.
 
 ## Success Criteria for the software system ##
-1. It allows only the client to log in
-1. It organizes musics in genre, artist, time produced
-1. It makes 3 files and each database should be recorded in them
-1. It shows the time added to the playlist for each musics
-1. Database of musics can be editted and deleted by user 
-1. It collects musics based on Spotify
-1. Manual with easy langiage can be available for the software.
-1. Client will be involved in the entire process of developing the system
+1. It shows title, autor, genre, pages, until where I read for each books.
+1. It is able to be edit and delete by user
+1. It only allows the user to login (exclusive)
+1. Manual is added to the software
+1. Easy to use(it should be easy for begginers)
+
 
