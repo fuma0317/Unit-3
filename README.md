@@ -228,7 +228,7 @@ This will split '192.168.0.1' where it encountered "."    The output would be
 ```
 init method initializes instances. Class requires this method to store data of instances. 'Method' means a function in class.
 
-**what is self**
+**What is self**
 
 self represents instances themselves.
 ```
@@ -243,6 +243,17 @@ Output would be
 ```
 Hello, mike. I am Fuma
 ```
+**Inheritance**
+
+If you inherit class 'Person', type person as argument 
+```
+class Saiyan(Person):
+    
+    def __init__(self, name, nationality, age, strength):
+        super().__init__(name, nationality, age)
+        self.strength = strength
+ ```
+ First, write what information you want to store in child class with init method. Secondly, write what information you want to inherit from parent class with 'super().__ init__' 
 
 
 ComputationalThinking
