@@ -229,6 +229,7 @@ This will split '192.168.0.1' where it encountered "."    The output would be
 init method initializes instances. Class requires this method to store data of instances.
 
 **what is self**
+
 self represents instances themselves.
 ```
  def say_hello(self, name):
