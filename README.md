@@ -226,7 +226,7 @@ This will split '192.168.0.1' where it encountered "."    The output would be
         self.nationality = nationality
         self.age = age
 ```
-init method initializes instances. Class requires this method to store data of instances.
+init method initializes instances. Class requires this method to store data of instances. 'Method' means a function in class.
 
 **what is self**
 
