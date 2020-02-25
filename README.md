@@ -255,6 +255,18 @@ class Saiyan(Person):
  ```
  First, write what information you want to store in child class with init method. Secondly, write what information you want to inherit from parent class with 'super().__ init__' 
 
+```
+goku = Saiyan('Goku', 'Space', 65, 10000)
+print (goku.name)
+print(goku.say_hello('mike'))
+```
+In case you made an instance, you are still able to use the method in parent class
+```
+Goku
+Hello, mike. I am Goku
+```
+
+
 
 ComputationalThinking
 ---------------
