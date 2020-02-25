@@ -218,6 +218,31 @@ This will split '192.168.0.1' where it encountered "."    The output would be
 '192', '168', '0', '1'
 ```
 
+## Class ##
+**init method**
+```
+    def __init__(self,name, nationality, age):
+        self.name = name
+        self.nationality = nationality
+        self.age = age
+```
+init method initializes instances. Class requires this method to store data of instances.
+
+**what is self**
+self represents instances themselves.
+```
+ def say_hello(self, name):
+        print('Hello, {}. I am {} '.format(name, self.name))
+```
+In this case, name is argument and self.name is instance named 'Fuma'. So if you open say_hello method like below
+```
+print(Fuma.say_hello('mike'))
+```
+Output would be 
+```
+Hello, mike. I am Fuma
+```
+
 
 ComputationalThinking
 ---------------
