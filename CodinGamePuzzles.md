@@ -27,4 +27,27 @@ while True:
 
 ## Power of Thor Episode 1 ##
 ```
+# game loop
+while True:
+    remaining_turns = int(input())  # The remaining amount of turns Thor can move. Do not remove this line.
+    move =""
+    if light_x > initial_tx:
+        move = "E"
+    elif light_x < initial_tx:
+        move = "W"
+    elif light_y > initial_ty:
+        move = "S"
+    elif light_y < initial_ty:
+        move = "N"
+    elif light_x > initial_tx and light_y > initial_ty:
+        move = "SE"
+    elif light_x < initial_tx and light_y < initial_ty:
+        move = "NW"
+    elif light_x < initial_tx and light_y > initial_ty:
+        move = "NE"
+    elif light_x > initial_tx and light_y < initial_ty:
+        move = "SW"
+    print(move)
 ```
+This code passes the test 1,2 but it doesn't work anymore after that...
+
