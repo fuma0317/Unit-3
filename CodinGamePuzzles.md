@@ -15,11 +15,11 @@ else:
 ```
 import statistics
 while True:
-    youheight = 9
+    youindex = 9
     mountain_in = []
     mountain_in.append(9, 8, 7, 6, 5, 4, 3, 2)
     for i in range(8):
-        youheight = youheight - 1
+        youindex = youindex - 1
         l = list(filter(lambda x: x < youheight, mountain_in))
         print(max(l))
  ```
