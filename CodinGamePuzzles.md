@@ -13,12 +13,14 @@ else:
 
 ## The Descent ## 
 ```
-hile True:
-    target = 0
+import statistics
+while True:
     youheight = 9
+    mountain_in = []
+    mountain_in.append(9, 8, 7, 6, 5, 4, 3, 2)
     for i in range(8):
         youheight = youheight - 1
-        target = 9 - youheight
-    print(target)
+        l = list(filter(lambda x: x < youheight, mountain_in))
+        print(max(l))
  ```
- I couldn't come up with the solution of the problem. 
+ I wanted to make a code that repeat 9-1(your index) and each time the max index of mountains by filtering the index which is bigger than your index. However, this code is not working somehow. I probably misread the concept of the problem.
