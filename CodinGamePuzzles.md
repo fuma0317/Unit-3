@@ -24,3 +24,7 @@ while True:
         print(max(l))
  ```
  I wanted to make a code that repeat 9-1(your index) and each time the max index of mountains by filtering the index which is bigger than your index. However, this code is not working somehow. I probably misread the concept of the problem.
+
+## Power of Thor Episode 1 ##
+```
+```
