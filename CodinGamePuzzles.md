@@ -51,3 +51,7 @@ while True:
 ```
 This code passes the test 1,2 but it doesn't work anymore after that...
 
+## There is no spoon ##
+```
+```
+
