@@ -313,6 +313,13 @@ Today, We started off by learning how to graph in Python. I felt that it was ver
 **Journals 2/24**
 Today, we learned how to graph sin function with three points and calculate the distance between them. I was so confused of the coding part. I guess I need to have a meeting.
 
+**Journals 3/6**
+self study interface
+
+**Journals 3/9**
+interface combined together
+**Journals 3/11**
+interface
 ## Profession ##
 **Occupation**: Architect
 
