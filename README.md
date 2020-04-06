@@ -106,6 +106,13 @@ Output
 1, 2, 3. 4, 5, 6. 
 123 -- 4 * 5 * 6
 ```
+**How to check if it is alphabet or digit**
+```
+.isalpha(): #check if it is alphabet
+
+.isdigit(): #check if it is digit
+```
+
 ## How to use "append" ##
 ```
 l = list(range(3))
@@ -120,6 +127,8 @@ l.append('new')
 print(l)
 # [0, 1, 2, 100, 'new']
 ```
+
+
 ## Lists ##
 **print the elements of lists**
 ```
