@@ -4,3 +4,6 @@ Mobile devices are becoming smaller and smaller every year for the convinience o
 
 ## Question 2 ##
 ![gate](IMG_2195.JPG)
+
+## Question 3 ##
+A protocol is a standard set of rules that allow electronic devices to communicate with each other. These rules include what type of data may be transmitted, what commands are used to send and receive data, and how data transfers are confirmed.
