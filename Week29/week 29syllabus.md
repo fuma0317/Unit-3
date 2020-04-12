@@ -19,9 +19,16 @@
 | TOTAL      |                | $4260.50 |
 
 ## Performance ##
+```
 ・ The high performance graphics board for gaming (RTX 2080 Ti)
+
 ・ The high performance CPU for gaming (Core i9 9900K)
+
 ・ The efficient and highly-durable SSD for system (WD Black SN750)
+
 ・ The large-capacity 2TB SSD for gaming (SanDisk Ultra 3D ssd) 
+
 ・ HDD can be used for recording and video-editing as well
+
 ・ Overclocking cpu over 5,0GHz and reinforces the quality
+```
