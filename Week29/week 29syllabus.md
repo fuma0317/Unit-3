@@ -16,5 +16,5 @@
 | PSU | Phanteks REVOLT X PSU | $316.70 |
 | PC case | Define R6 TG White | $129.53 |
 | OS | Windows 10 Pro 64 bit | ~ $175.15 |
-| TOTAL                      | $4260.50 |
+| TOTAL      |                | $4260.50 |
 
