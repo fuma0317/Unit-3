@@ -32,4 +32,8 @@ corona = np.array([88585, 90443, 93016, 95314, 98425, 102050, 106099, 109991, 11
 correlation = np.corrcoef(gold, corona)
 print(correlation[0,1])
 ```
-
+## result ##
+```
+0.006504120924585584
+```
+I got the number above and it is far away from 1 so I can say the corona cases and gold price are not really related...
