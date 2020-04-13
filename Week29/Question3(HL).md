@@ -36,4 +36,4 @@ print(correlation[0,1])
 ```
 0.006504120924585584
 ```
-I got the number above and it is far away from 1 so I can say the corona cases and gold price are not really related...
+**I got the number above and it is far away from 1 so I can say the corona cases and gold price are not really related...**
