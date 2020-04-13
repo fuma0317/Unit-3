@@ -1,3 +1,4 @@
+# Corona vs Gold Price #
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,3 +16,4 @@ plt.ylabel("Corona cases (people)")
 plt.scatter(gold, corona, s=50, c ="b", marker="D", alpha=0.5)
 plt.show()
 ```
+##
