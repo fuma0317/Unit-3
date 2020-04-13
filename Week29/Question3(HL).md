@@ -1,5 +1,6 @@
 # Corona vs Gold Price #
 ```
+#this program creates the scatter plot shows how th price of gold and the number of corona cases are linked
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -16,4 +17,5 @@ plt.ylabel("Corona cases (people)")
 plt.scatter(gold, corona, s=50, c ="b", marker="D", alpha=0.5)
 plt.show()
 ```
-##
+## Scatter plot for corona cases vs gold prices ##
+![scattercvsg](IMG_3000.JPG)
