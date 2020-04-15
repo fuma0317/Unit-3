@@ -24,6 +24,7 @@ Contents
 *What is hash ?*
 ```
 hash is a fingerprint of some digital data. If you covert exact same word, hash is also exact same. It is NOT random.
+All hash have same length.
 ```
 *What is byte and bit?*
 ```
@@ -32,7 +33,7 @@ bit is a unit measuring the size of data. 8bits = 1 byte
 *what is ascii*
 ```
 a code that is comprised of [0, 1] which is converted from other digits or strings.
-It is an initial code.
+It is an initial code and that can represent 256 characters.
 ```
 *what is unicode and UTF-8*
 ```
