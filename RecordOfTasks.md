@@ -21,4 +21,7 @@ Contents
 
 # Development #
 ## Making secure log-in system ##
-**What is hash ?**
+*What is hash ?*
+```
+hash is a fingerprint of some digital data. If you covert exact same word, hash is also exact same. It is NOT random.
+```
