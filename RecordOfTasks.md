@@ -28,3 +28,8 @@ hash is a fingerprint of some digital data. If you covert exact same word, hash 
 *What is byte and bit?*
 ```
 bit is a unit measuring the size of data. 8bits = 1 byte 
+```
+*what is ascii*
+```
+a code that is comprised of [0, 1] which is converted from other digits or strings.
+```
