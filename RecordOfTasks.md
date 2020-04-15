@@ -25,3 +25,6 @@ Contents
 ```
 hash is a fingerprint of some digital data. If you covert exact same word, hash is also exact same. It is NOT random.
 ```
+*What is byte and bit?*
+```
+bit is a unit measuring the size of data. 8bits = 1 byte 
