@@ -20,3 +20,5 @@ Contents
 1. [Evaluation](#Evaluation)
 
 # Development #
+## Making secure log-in system ##
+**What is hash ?**
