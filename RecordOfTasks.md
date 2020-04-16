@@ -49,3 +49,4 @@ def hash_password(password):
     pwdhash = binascii.hexlify(pwdhash)
     return (salt + pwdhash).decode('ascii')
 ```
+**CODE which verifying the password set by users initially is equal to the password user typed now**
