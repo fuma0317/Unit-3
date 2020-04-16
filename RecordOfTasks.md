@@ -40,3 +40,12 @@ It is an initial code and that can represent 256 characters.
 These are basically same as ascii but they were invented for the sake of more complicated language.
 UTF-8 is compatible with ascii as it shows the ascii part with 1 byte and other parts with 2 - 6 bytes.
 ```
+*CODE which encodes the password typed by user.*
+```
+def hash_password(password):
+    """hash a password for string"""
+    salt = hashlib.sha256(os.urandom(60)).hexdigest().encode('ascii')
+    pwdhash = hashlib.pbkdf2_hmac('sha512', password.encode('utf-8'), salt, 100000)
+    pwdhash = binascii.hexlify(pwdhash)
+    return (salt + pwdhash).decode('ascii')
+```
