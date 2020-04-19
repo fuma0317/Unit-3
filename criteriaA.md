@@ -1,6 +1,6 @@
 # CRITERIA A for the software application #
 
-## Definition of Problem ##
+## Defining Problem ##
 This is the g-mail I got from my client. Based on this, I designed my application making making sure that it meets client's needs
 ```
 I have a lot of music but no interesting way to quickly sort them or find specific songs. 
