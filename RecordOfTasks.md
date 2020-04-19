@@ -22,7 +22,10 @@ Contents
 
 ## Planning ##
 ### Defining problem ###
-
+This is the g-mail that I got from my client
+```
+I have a lot of music but no interesting way to quickly sort them or find specific songs. It would be  very nice if I could sort my songs into categories or based on information about them. I would like an app that would sort and categorize my music for more pleasant listening
+```
 
 ## Development ##
 ### Making secure log-in system ###
