@@ -19,6 +19,11 @@ Contents
 1. [Development](#Development)
 1. [Evaluation](#Evaluation)
 
+
+# Planning #
+**Defining problem**
+
+
 # Development #
 ## Making secure log-in system ##
 *What is hash ?*
