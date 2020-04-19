@@ -13,6 +13,10 @@ Create a software application which sorts musics into 7 categories which is "Roc
 
 ## First sketches for proposed solution ##
 ![loginpage](Loginpage.JPG)
+**First sketch for login page**
+I'm plannning to create a own logo for my application and put it on the top of every pages. I will refer Spotify's design and logo for my application as it is related to spotify.
+
+![mainpage](Mainpage.JPG)
 
 ## Success Criteria for the software system ##
 1. Secure login system that only allows the client to login
