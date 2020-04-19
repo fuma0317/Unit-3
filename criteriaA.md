@@ -17,6 +17,10 @@ Create a software application which sorts musics into 7 categories which is "Roc
 I'm plannning to create a own logo for my application and put it on the top of every pages. I will refer Spotify's design and logo for my application as it is related to spotify.
 
 ![mainpage](Mainpage.JPG)
+**First sketch for main page**
+I wanted to make a unique main page so I decided to make 7 bubbles which represent each categories of music. So if user click on the bubble called "Rock", it jumps to database of rock songs. There is one problem which is I need to create 7 database pages and the size of application would be large.
+
+![databasepage](Database.JPG)
 
 ## Success Criteria for the software system ##
 1. Secure login system that only allows the client to login
