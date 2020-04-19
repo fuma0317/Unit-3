@@ -40,6 +40,7 @@ Create a software application which sorts musics into 7 categories which is "Roc
 1. Manual is added to the software
 1. Easy to use(it should be easy for begginers)
 
+## Design ##
 
 ## Development ##
 ### Making secure log-in system ###
