@@ -11,6 +11,9 @@ I would like an app that would sort and categorize my music for more pleasant li
 ## Proposed Solutuion ##
 Create a software application which sorts musics into 7 categories which is "Rock", "EDM", "Reggae", "Game", "Hiphop", "J-pop" and "K-pop". And also the application shows the songs' title, artsit, length of time and when the song was added to playlist in Spotify. This database will be only used by my client(Shin)
 
+## First sketches for proposed solution ##
+![loginpage](Loginpage.JPG)
+
 ## Success Criteria for the software system ##
 1. Secure login system that only allows the client to login
 1. It is able to be edit and delete by user
