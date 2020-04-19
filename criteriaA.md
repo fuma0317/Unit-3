@@ -9,12 +9,13 @@ I would like an app that would sort and categorize my music for more pleasant li
 ```
 
 ## Proposed Solutuion ##
-I need a database software application that sorts books into 5 categories which are title, the author, genre, pages and until where I read so that I can pick up a proper book whenever I want. Lastly, I want the system to be only accessed by me.
+Create a software application which sorts musics into 7 categories which is "Rock", "EDM", "Reggae", "Game", "Hiphop", "J-pop" and "K-pop". And also the application shows the songs' title, artsit, length of time and when the song was added to playlist in Spotify. This database will be only used by my client(Shin)
 
 ## Success Criteria for the software system ##
-1. It shows title, autor, genre, pages, until where I read for each books.
+1. Secure login system that only allows the client to login
 1. It is able to be edit and delete by user
-1. It only allows the user to login (exclusive)
+1. Songs are sorted in 7 categories 
+1. It shows the title, artist, length of time and the date that songs were added
 1. Manual is added to the software
 1. Easy to use(it should be easy for begginers)
 
