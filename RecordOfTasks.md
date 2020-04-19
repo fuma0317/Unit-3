@@ -21,7 +21,7 @@ Contents
 
 
 # Planning #
-**Defining problem**
+### Defining problem ###
 
 
 # Development #
