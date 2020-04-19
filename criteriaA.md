@@ -1,7 +1,7 @@
 # CRITERIA A for the software application #
 
 ## Definition of Problem ##
-This is the g-mail I got from my client
+This is the g-mail I got from my client. Based on this, I designed my application making making sure that it meets client's needs
 ```
 I have a lot of music but no interesting way to quickly sort them or find specific songs. It would be  very nice if I could sort my songs into categories or based on information about them. I would like an app that would sort and categorize my music for more pleasant listening
 ```
