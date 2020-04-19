@@ -21,6 +21,8 @@ I'm plannning to create a own logo for my application and put it on the top of e
 I wanted to make a unique main page so I decided to make 7 bubbles which represent each categories of music. So if user click on the bubble called "Rock", it jumps to database of rock songs. There is one problem which is I need to create 7 database pages and the size of application would be large.
 
 ![databasepage](Database.JPG)
+**First sketch for database page**
+I made a database page which shows title, artsit, length and dates clearly and looks similar to spotify.
 
 ## Success Criteria for the software system ##
 1. Secure login system that only allows the client to login
