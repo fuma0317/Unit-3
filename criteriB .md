@@ -1,2 +1,2 @@
 # Criteria B desin #
-## Designs for registration ##
+## Designs for registration system ##
