@@ -6,3 +6,5 @@ Users type in their e-mail address, name and password. Very straightforward and 
 
 **Final design (to be released)**
 ![newrergi](regi.jPG)
+I added the confirmation button to check if the password typed at first is same as one user thinks.
+I spent much time on back ground color to make it similar to Spotify.
