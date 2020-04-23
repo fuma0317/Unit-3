@@ -5,4 +5,4 @@
 Users type in their e-mail address, name and password. Very straightforward and minimized design for encoding the password typed by user.
 
 **Final design (to be released)**
-![newrergi](regi.JPG)
+![newrergi](regi.jPG)
