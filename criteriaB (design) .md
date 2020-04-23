@@ -1,3 +1,3 @@
-# Criteria B desin #
+# Criteria B design #
 ## Designs for registration system ##
 ![
