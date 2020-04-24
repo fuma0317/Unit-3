@@ -2,19 +2,19 @@
 
 Contents
 --------------
-1. [registration](#designforregistrationsystem)
+1. [Desings for Registration System](#designforregistrationsystem)
 
 
  Designs for Registration System 
  ----------------------------
-## First sketch for registration page ##
+**First sketch for registration page**
 ![registration](IMG_2287.JPG)
 Users type in their e-mail address, name and password. Very straightforward and minimized design for encoding the password typed by user.
 
-## Second design ##
+**Second design**
 ![newrergi](regi.jPG)
 I added the confirmation button to check if the password typed at first is same as one user thinks.
 I spent much time on back ground color to make it similar to Spotify.
 
-## Final design (to be released) ##
+**Final design (to be released)**
 
