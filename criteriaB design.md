@@ -2,10 +2,10 @@
 
 Contents
 --------------
-1. [Desings for Registration System](#designforregistrationsystem)
+1. [Desings for Registration System](#registration)
 
 
- Designs for Registration System 
+ Registration 
  ----------------------------
 **First sketch for registration page**
 ![registration](IMG_2287.JPG)
