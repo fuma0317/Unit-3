@@ -1,4 +1,10 @@
 # Criteria B design #
+
+Contents
+--------------
+1. [registration](#designforregistrationsystem)
+
+
 ## Designs for registration system ##
 **First sketch for registration page**
 ![registration](IMG_2287.JPG)
