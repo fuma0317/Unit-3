@@ -29,3 +29,4 @@ Users type in their username and password every time they open the home page of 
 
 **Second design**
 ![loginqt](loginqt.JPG)
+I made the exact same design in qt designer. And I set the gradation of black color in background color to make it looks Spotify. 
