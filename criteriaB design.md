@@ -17,4 +17,5 @@ I added the confirmation button to check if the password typed at first is same 
 I spent much time on back ground color to make it similar to Spotify.
 
 **Final design (to be released)**
-
+![regifinal](reginew.JPG)
+Lastly, I added the quit button for registration form as well which enables user to exit registration page if they've already done log-in.
