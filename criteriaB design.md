@@ -3,6 +3,7 @@
 Contents
 --------------
 1. [Desings for Registration System](#registration)
+1. [Desings for login system](#loginpage)
 
 
  Registration 
@@ -19,3 +20,8 @@ I spent much time on back ground color to make it similar to Spotify.
 **Final design (to be released)**
 ![regifinal](reginew.JPG)
 Lastly, I added the quit button for registration form as well which enables user to exit registration page if they've already done log-in.
+
+LoginPage
+------------
+**First sketch for login page**
+![login](Loginpage.JPG)
