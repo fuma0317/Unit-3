@@ -25,3 +25,6 @@ LoginPage
 ------------
 **First sketch for login page**
 ![login](Loginpage.JPG)
+Users type in their username and password every time they open the home page of the application. And I put the logo at the top of the page.
+
+**Second design**
