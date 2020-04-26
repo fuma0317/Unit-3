@@ -9,7 +9,7 @@ Contents
 
 SystemDiagram
 --------------
-
+![systemdiagram](IMG_2203.JPG)
 
  Registration 
  ----------------------------
