@@ -46,3 +46,4 @@ I added the quit, login and register button that enables users to jump to each p
 Database
 -------------
 **First sketch for database page**
+![databasepage](Database.JPG)
