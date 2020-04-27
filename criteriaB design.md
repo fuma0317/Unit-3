@@ -47,3 +47,4 @@ Database
 -------------
 **First sketch for database page**
 ![databasepage](Database.JPG)
+The table shows the title, artist, length of music and date added. These are based on client's requirements.
