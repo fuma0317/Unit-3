@@ -42,3 +42,7 @@ I made the exact same design in qt designer. And I set the gradation of black co
 **Final design**
 ![loginqtnew](loginqtnew.JPG)
 I added the quit, login and register button that enables users to jump to each pages.
+
+Database
+-------------
+**First sketch for database page**
