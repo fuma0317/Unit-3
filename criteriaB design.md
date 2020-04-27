@@ -48,3 +48,8 @@ Database
 **First sketch for database page**
 ![databasepage](Database.JPG)
 The table shows the title, artist, length of music and date added. These are based on client's requirements.
+
+**Final design**
+![databaseqt](databaseqt.JPG)
+I added "back" button that enables users to go back to homepage and "Revert" and "Save" button that enables users to save or undo the change.
+This pic is for databse only for EDM musics. And the app has 7 databases having almost same design.
