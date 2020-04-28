@@ -11,8 +11,12 @@ pyuic5 Mainpage.ui -o Mainpage.py
 from register import Register as reg
 ```
 If you have register.py file and class that is called Register inside, you can import the class like the way above. Also, you can rename the class to make it easy to identify. In this cas, I call the class "reg".
+
 **Importing the basis of application**
 ```.py
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QApplication, QMainWindow, QAction, QTableWidgetItem
 ```
+
+### Login System:
+I began to create the codes for login system as a first step as it is the first window that users would deal with.
