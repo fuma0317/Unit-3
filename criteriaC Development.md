@@ -5,6 +5,7 @@ Contents
 1. [Preparation](#preparation)
 1. [Login System](#loginsystem)
 1. [Registration](#registration)
+1. [Database System](#database)
 
 
  Preparation:
@@ -159,4 +160,18 @@ text box turns into orange as error in the case which nothing is in text box or 
 ```
 This method reads e-mail and password, then hashes the password with e-mail. And stores it in txt file.
 
-### Database 
+Database:
+------------
+**Initializer and button connection**
+```.py
+    def __init__(self, parent=None):
+        super(dbofEDM, self).__init__(parent)
+        self.setupUi(self)
+        self.data = self.load_data()
+        self.pushButton_back.clicked.connect(self.goback)
+        self.tableWidget.cellChanged.connect(self.changeDB)
+        self.pushButton_save.clicked.connect(self.save)
+        self.pushButton_revert.clicked.connect(self.cancel)
+ ```
+ This code is database for EDM musics. So, I have 7 database codes like the one above. I will just explain one of it.
+ Also, each buttons and table widget are connected.
