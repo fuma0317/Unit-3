@@ -75,3 +75,19 @@ This method is connected to the button by the part in initializer.
         return email_ok, password_ok
  ```
 text box turns into orange as error in the case which nothing is in text box or '@' is not included in e-mail text box or confirm is not same as password. If they are all okay, it turns into green
+
+**Creating verification system**
+```.py
+    def try_login(self):
+        if self.check_login():
+            self.verification()
+
+    def verification(self):
+        email = self.lineEdit.text()
+        password = self.lineEdit_2.text()
+        with open('Output.txt', mode='rt') as f:
+            for user in f:
+                cph = verify_password(user, email + password)
+                if cph == True:
+                    self.done(0)
+ ```
