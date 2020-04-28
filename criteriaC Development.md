@@ -190,3 +190,19 @@ Database:
         return data
  ```
  This method opens the csv file and read the data insode of it. Then, shows the data in table widget.
+ 
+ **Editing System for database**
+ ```.py
+     def changeDB(self):
+        item = self.tableWidget.currentItem() #cell clicked
+        row = self.tableWidget.currentRow() #row clicked
+        col = self.tableWidget.currentColumn() #column clicked
+        #change the color of the cell clicked
+        self.tableWidget.item(row, col).setBackground(QtGui.QColor(100, 100, 150))
+        #show the item in the terminal for debugging purposes
+        print(item.text())
+
+        self.pushButton_save.setDisabled(False)
+        self.pushButton_revert.setDisabled(False)
+ ```
+ 
