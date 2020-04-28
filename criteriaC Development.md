@@ -42,7 +42,7 @@ class loginPage(log):
   def quitApp(self):
         sys.exit(0) #0 means exit without errors
  ```
- **Showing registration app if tthe button is clicked**
+ **Showing registration app if the button is clicked**
  ```.py
  #This opens the registration form
     def regApp(self):
@@ -51,3 +51,26 @@ class loginPage(log):
 ```
 This method is connected to the button by the part in initializer.
  
+**Showing errors visually**
+```.py
+    def check_login(self):
+
+        #validation of the input
+        email_ok = False
+        password_ok = False
+        email = self.lineEdit.text()
+        if email < " ":
+            self.lineEdit.setStyleSheet("border: 3px solid orange")
+        else:
+            self.lineEdit.setStyleSheet("border: 3px solid green")
+            email_ok = True
+
+        password = self.lineEdit_2.text()
+        if password < " ":
+            self.lineEdit_2.setStyleSheet("border: 3px solid orange")
+        else:
+            self.lineEdit_2.setStyleSheet("border: 3px solid green")
+            password_ok = True
+
+        return email_ok, password_ok
+ ```
