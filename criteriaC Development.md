@@ -91,3 +91,4 @@ text box turns into orange as error in the case which nothing is in text box or 
                 if cph == True:
                     self.done(0)
  ```
+ if all inputs are valid, it goes to verification method. This method reads email and password hash it. then, open the output.txt file which have all of hashed password. Reads them line by line and checks the password typed by user in login page is there.
