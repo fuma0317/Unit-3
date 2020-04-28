@@ -92,3 +92,44 @@ text box turns into orange as error in the case which nothing is in text box or 
                     self.done(0)
  ```
  if all inputs are valid, it goes to verification method. This method reads email and password hash it. then, open the output.txt file which have all of hashed password. Reads them line by line and checks the password typed by user in login page is there.
+
+### Registration:
+**Validation system**
+```.py
+    def check_register(self):
+        email_ok = False
+        name_ok = False
+        password_ok = False
+        confirm_ok = False
+
+        #validation of the input
+        email = self.lineEdit_email.text()
+        if '@' not in email:
+            self.lineEdit_email.setStyleSheet("border: 3px solid orange")
+
+        else:
+            self.lineEdit_email.setStyleSheet("border: 3px solid green")
+            email_ok = True
+
+        name = self.lineEdit_name.text()
+        if name <" ":
+            self.lineEdit_name.setStyleSheet("border: 3px solid orange")
+        else:
+            self.lineEdit_name.setStyleSheet("border: 3px solid green")
+            name_ok = True
+
+        password = self.lineEdit_password.text()
+        if password <" ":
+            self.lineEdit_password.setStyleSheet("border: 3px solid orange")
+        else:
+            self.lineEdit_password.setStyleSheet("border: 3px solid green")
+            password_ok = True
+
+        confirm = self.lineEdit_confirm.text()
+        if confirm != password or confirm <" ":
+            self.lineEdit_confirm.setStyleSheet("border: 3px solid orange")
+        else:
+            self.lineEdit_confirm.setStyleSheet("border: 3px solid green")
+            confirm_ok = True
+        return email_ok, name_ok, password_ok, confirm_ok
+ ```
