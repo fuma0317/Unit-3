@@ -49,5 +49,5 @@ class loginPage(log):
         regVar = register(self)
         regVar.show()
 ```
-This method is connected to the button by initializer.
+This method is connected to the button by the part in initializer.
  
