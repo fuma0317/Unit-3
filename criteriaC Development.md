@@ -74,4 +74,4 @@ This method is connected to the button by the part in initializer.
 
         return email_ok, password_ok
  ```
-text box turns into orange as error in the case which nothing is in text box or '@' is not included in e-mail text box or confirm is not same as password. 
+text box turns into orange as error in the case which nothing is in text box or '@' is not included in e-mail text box or confirm is not same as password. If they are all okay, it turns into green
