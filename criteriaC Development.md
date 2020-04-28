@@ -10,3 +10,4 @@ pyuic5 Mainpage.ui -o Mainpage.py
 ```.py
 from register import Register as reg
 ```
+If you have register.py file and class that is called Register inside, you can import the class like the way above. Also, you can rename the class to make it easy to identify. In this cas, I call the class "reg".
