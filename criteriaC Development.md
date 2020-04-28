@@ -36,3 +36,9 @@ class loginPage(log):
         self.pushButton_register.clicked.connect(self.regApp)
  ```
  This should be included in the initializer. This part enables to connect to methods if the particular button is clicked.
+ 
+ **Creating exit system**
+ ```.py
+  def quitApp(self):
+        sys.exit(0) #0 means exit without errors
+ ```
