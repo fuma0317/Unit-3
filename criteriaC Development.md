@@ -42,3 +42,12 @@ class loginPage(log):
   def quitApp(self):
         sys.exit(0) #0 means exit without errors
  ```
+ **Showing registration app if tthe button is clicked**
+ ```.py
+ #This opens the registration form
+    def regApp(self):
+        regVar = register(self)
+        regVar.show()
+```
+This method is connected to the button in initializer.
+ 
