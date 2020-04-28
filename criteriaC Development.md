@@ -28,3 +28,10 @@ class loginPage(log):
         super(loginPage, self).__init__(parent)
         self.setupUi(self)
 ```
+**Creating a system to connect the buttons with each metthods**
+```.py
+self.pushButton_login.clicked.connect(self.try_login)
+        # This is a behaviour for the quit button
+        self.pushButton_quit.clicked.connect(self.quitApp)
+        self.pushButton_register.clicked.connect(self.regApp)
+ ```
