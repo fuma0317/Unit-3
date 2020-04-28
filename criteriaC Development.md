@@ -4,6 +4,8 @@ Contents
 -------------------
 1.[Preparation](#preparation)
 1.[login](#loginsytem)
+1.[
+
 
  Preparation:
  ----------
@@ -25,7 +27,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QApplication, QMainWindow, QAction, QTableWidgetItem
 ```
 
-### Login System:
+ LoginSystem:
+ --------------
 I began to create the codes for login system as a first step as it is the first window that users would deal with.
 
 **Creating initializer**
@@ -100,7 +103,8 @@ text box turns into orange as error in the case which nothing is in text box or 
  ```
  if all inputs are valid, it goes to verification method. This method reads email and password hash it. then, open the output.txt file which have all of hashed password. Reads them line by line and checks the password typed by user in login page is there.
 
-### Registration:
+ Registration:
+ ----------------
 **Validation system**
 ```.py
     def check_register(self):
