@@ -133,3 +133,4 @@ text box turns into orange as error in the case which nothing is in text box or 
             confirm_ok = True
         return email_ok, name_ok, password_ok, confirm_ok
  ```
+ the text box turns out orange if there is error, if not, it turns out green. It works in the same way as login validation so I won't write an explanation here.
