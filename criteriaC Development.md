@@ -134,3 +134,16 @@ text box turns into orange as error in the case which nothing is in text box or 
         return email_ok, name_ok, password_ok, confirm_ok
  ```
  the text box turns out orange if there is error, if not, it turns out green. It works in the same way as login validation so I won't write an explanation here.
+ 
+ **Storing hashed password in txt file**
+ ```.py
+     def store(self):
+        email = self.lineEdit_email.text()
+        password = self.lineEdit_password.text()
+        print("Hashing", email + password)
+        msg = hash_password(email + password)
+        with open('Output.txt', "a") as output_file:
+            output_file.write('{}\n'.format(msg))
+        self.close()
+```
+This method reads e-mail and password, then hashes the password with e-mail. And stores it in txt file.
