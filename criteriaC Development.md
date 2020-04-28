@@ -175,3 +175,18 @@ Database:
  ```
  This code is database for EDM musics. So, I have 7 database codes like the one above. I will just explain one of it.
  Also, each buttons and table widget are connected.
+ 
+ **Loading the data inside of csv file**
+ ```.py
+     def load_data(self):
+        # Here we read the comma-separated values file
+        data = []
+        with open('db_EDM.csv') as EDMdatabase:
+            file = csv.reader(EDMdatabase, delimiter=",")
+            for i, row in enumerate(file):
+                for j, col in enumerate(row):
+                    data.append([i, j, col])
+                    self.tableWidget.setItem(i, j, QTableWidgetItem(col))
+        return data
+ ```
+ This method opens the csv file and read the data insode of it. Then, shows the data in table widget.
