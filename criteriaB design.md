@@ -7,7 +7,6 @@ Contents
 1. [Desings for login system](#loginpage)
 1. [Designs for home page](#homepage)
 1. [Designs for database page](#database)
-1. [Designs for edit page](#editpage)
 
 
 SystemDiagram
