@@ -51,7 +51,7 @@ class loginPage(log):
 ```
 This method is connected to the button by the part in initializer.
  
-**Showing errors visually**
+**Validation (Showing errors visually)**
 ```.py
     def check_login(self):
 
