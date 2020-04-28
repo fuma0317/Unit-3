@@ -1,5 +1,12 @@
 # Criteria C Development #
-### Preparation:
+
+Contents
+-------------------
+1.[Preparation](#preparation)
+1.[login](#loginsytem)
+
+ Preparation:
+ ----------
 Before coding the system of the inventory application, I needed to develop some basic things as preparation.
 Without this prepation, we can't even start this project. So, this is crucial in that sense and this page also could be a memorandum.
 **Converting ui file into python file interminal console**
@@ -147,3 +154,5 @@ text box turns into orange as error in the case which nothing is in text box or 
         self.close()
 ```
 This method reads e-mail and password, then hashes the password with e-mail. And stores it in txt file.
+
+### Database 
