@@ -3,8 +3,8 @@
 Contents
 -------------------
 1. [Preparation](#preparation)
-1. [login](#loginsytem)
-1. [registration](#registration)
+1. [Login System](#loginsystem)
+1. [Registration](#registration)
 
 
  Preparation:
