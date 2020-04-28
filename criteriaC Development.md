@@ -20,3 +20,11 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QAction, QTableWidgetItem
 
 ### Login System:
 I began to create the codes for login system as a first step as it is the first window that users would deal with.
+
+**Creating initializer**
+```.py
+class loginPage(log):
+    def __init__(self, parent=None):
+        super(loginPage, self).__init__(parent)
+        self.setupUi(self)
+```
