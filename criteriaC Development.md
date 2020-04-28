@@ -2,9 +2,9 @@
 
 Contents
 -------------------
-1.[Preparation](#preparation)
-1.[login](#loginsytem)
-1.[
+1. [Preparation](#preparation)
+1. [login](#loginsytem)
+1. [registration](#registration)
 
 
  Preparation:
