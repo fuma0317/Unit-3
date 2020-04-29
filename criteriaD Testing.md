@@ -10,11 +10,18 @@ But the system itelf is working.
 ![regitrationtest](Registration.gif)
 ![regiteroutput](Registration_output.JPG)
 
-## Login System ##
+## Login System (verification) ##
 1. Users are able to type in text box
 1. It verifies the password typed in login window and the one in Output.txt are same.
 1. If the password is correct, it jumps to homepage
 
 ![logintest](login.gif)
+
+## Login System (errors message) ##
+1. Text boxes become orange if they are empty
+1. Text boxes become green if they are filled properly
+1. Email text box becomes orange if @ is not included in email typed by user.
+
+![loginerror](loginver.gif)
 
 ## Home Page ##
