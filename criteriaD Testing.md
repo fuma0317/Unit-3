@@ -35,5 +35,5 @@ But the system itelf is working.
 1. The table widget shows the data of csv file
 
 ![csvdata](csvdata.JPG)
-![table widget](table widget.JPG)
+![table widget](table_widget.JPG)
 
