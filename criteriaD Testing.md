@@ -8,4 +8,4 @@ But the system itelf is working.
 1. If the "regiter" button is clicked, it jumps to login page.
 
 ![regitrationtest](Registration.gif)
-![regiteroutput](Regitration_output.JPG)
+![regiteroutput](Registration_output.JPG)
