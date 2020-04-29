@@ -12,6 +12,7 @@ But the system itelf is working.
 
 ## Login System ##
 1. Users are able to type in text box
-1. 
+1. It verifies the password typed in login window and the one in Output.txt are same.
+1. If the password is correct, it jumps to homepage
 
-![logintest](
+![logintest](login.gif)
