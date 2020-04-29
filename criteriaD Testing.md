@@ -25,3 +25,12 @@ But the system itelf is working.
 ![loginerror](loginver.gif)
 
 ## Home Page ##
+1. Each buttons are connected to each database page
+
+![homepage](homepage.gif)
+
+## Database Page ##
+1. This page is connected to homepage
+1. The data which is in csv file is read
+1. The table widget shows the data of csv file
+
