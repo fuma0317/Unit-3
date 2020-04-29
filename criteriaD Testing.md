@@ -9,3 +9,7 @@ But the system itelf is working.
 
 ![regitrationtest](Registration.gif)
 ![regiteroutput](Registration_output.JPG)
+
+## Login System ##
+1. Users are able to type in text box
+1. 
