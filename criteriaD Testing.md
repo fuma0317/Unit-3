@@ -16,3 +16,5 @@ But the system itelf is working.
 1. If the password is correct, it jumps to homepage
 
 ![logintest](login.gif)
+
+## Home Page ##
