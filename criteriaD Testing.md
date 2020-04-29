@@ -34,6 +34,7 @@ But the system itelf is working.
 1. The data which is in csv file is read
 1. The table widget shows the data of csv file
 
-![cvdata](cvdata.JPG)
+![csvdata](csvdata.JPG)
+
 ![table widget](table widget.JPG)
 
